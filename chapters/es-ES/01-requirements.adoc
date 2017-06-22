@@ -1,0 +1,33 @@
+== Capítulo 1: Requisitos de la plataforma redborder community
+
+Antes de instalar redborder Community Manager tenga en cuenta los siguientes requisitos hardware y de conectividad.
+
+=== Requisitos hardware
+
+redborder Community Manager puede instalarse en:
+
+* Máquina física: appliance de redborder o máquina de propósito general.
+* Máquina virtual: VMware, KVM, etc.
+
+Los requisitos mínimos recomendados de instalación de redborder Community Manager en un equipo físico o virtual para un entorno no crítico que gestione un volumen de información menor:
+
+* Virtual CPUs o hilos físicos de procesador: 2
+* Memoria: 8 GB de RAM.
+* Almacenamiento: 20 GB HDD.
+* Red: una interfaz de red para gestión.
+
+Se ha de tener en cuenta que estos requisitos son los mínimos necesarios para que redborder Community Manager pueda funcionar en un entorno ligero y no crítico.
+
+[NOTE]
+===============================
+Para entornos de cierta criticidad, por favor, póngase en contacto con el equipo de redborder.
+===============================
+
+=== Requisitos de conectividad
+
+redborder Community Manager únicamente necesita poder comunicarse con sus sensores y con los administradores que deban acceder a él. Por tanto, la conectividad necesaria es:
+
+image::images/requirements/requirements-01.png["requirements-01",align="center"]
+
+
+

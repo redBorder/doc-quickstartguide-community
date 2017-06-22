@@ -1,0 +1,34 @@
+== Capítulo 2: Instalación
+
+Para la instalación de redborder Community Manager, el usuario puede solicitar desde la web de redborder una imagen ISO que podrá usar para desplegar el software en el equipo que desee.
+
+* En caso de instalación en máquina física, es posible grabar la imagen en un DVD o dispositivo de almacenamiento USB para proceder a su instalación
+* En caso de instalación en máquina virtual, será suficiente montar la imagen en un dispositivo DVD virtual.
+
+image::images/install/install-01.png["install-01",align="center"]
+
+Seleccione Install Community Manager para comenzar el proceso de instalación de redborder Community Manager.
+
+image::images/install/install-02.png["install-02",align="center"]
+
+Complete los siguientes ajustes básicos antes de continuar:
+
+* Selección de disco
+
+image::images/install/install-03.png["install-03",align="center"]
+
+* Selección de contraseña
+
+Contraseña por defecto: redborder
+
+image::images/install/install-04.png["install-04",align="center"]
+
+Una vez finalizados los ajustes básicos, se inicia automáticamente la instalación de redborder Community Manager.
+
+image::images/install/install-05.png["install-05",align="center"]
+
+Tras completar la instalación, el sistema se reiniciará automáticamente.
+
+image::images/install/install-06.png["install-06",align="center"]
+
+

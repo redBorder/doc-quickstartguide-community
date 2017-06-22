@@ -1,0 +1,86 @@
+== Capítulo 3: Configuración
+
+Una vez reiniciado el sistema, comienza el proceso de configuración automática de redborder Community Manager.
+
+image::images/config/config-01.png["config-01",align="center"]
+
+Tras finalizar la configuración automática, aparece la ventana de login, donde se podrán introducir las credenciales del sistema:
+
+* Usuario: root
+* Contraseña: la introducida en los ajustes básicos
+
+image::images/config/config-02.png["config-02",align="center"]
+
+A través del comando rb_sysconf es posible acceder al menú de configuración de redborder.
+
+image::images/config/config-03.png["config-03",align="center"]
+
+=== Configuración de red
+
+Una vez dentro del menú de configuración de redborder, seleccione la opción 2 (Network configuration) para acceder al menú de configuración de red.
+
+image::images/config/config-04.png["config-04",align="center"]
+
+Desde el menú de configuración de red es posible establecer la interfaz de gestión, el DNS y el dominio.
+
+image::images/config/config-05.png["config-05",align="center"]
+
+==== Configuración de la interfaz de gestión
+
+===== Con DHCP
+
+Si la red en la que se encuentra la interfaz de gestión tiene DHCP, no es necesario acceder a la opción 1 (Management Network configuration), puesto que el proceso automático de configuración que se ejecutó previamente ya debió de haber configurado correctamente esta interfaz.
+Introduzca el comando ‘ip a’ desde la CLI del sistema para conocer la dirección IP asignada. En el ejemplo de la imagen de abajo se puede ver como la IP asignada por DHCP para la interfaz de gestión bond0 es 10.0.150.101.
+
+image::images/config/config-06.png["config-06",align="center"]
+
+====== Sin DHCP
+
+Si la red en la que se encuentra la interfaz de gestión no tiene DHCP, es necesario configurar esta interfaz. Seleccione la opción 1 (Management Network configuration) para configurar la interfaz de gestión.
+
+image::images/config/config-07.png["config-07",align="center"]
+
+En este menú aparece un listado de los bondings existentes, por lo que tras la instalación y configuración automática deberá estar vacío, como se muestra en la imagen de abajo.
+
+image::images/config/config-08.png["config-08",align="center"]
+
+Para aportar redundancia, cabe la posibilidad de formar bondings con 2 interfaces de gestión cada uno. Si no se desea redundancia, igualmente se deberá formar un bonding, aunque sea empleando una única interfaz de gestión.
+Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetros que se solicitan. Puede ver en la imagen de abajo que la opción por defecto es incluir una única interfaz de gestión en el bonding (`Insert second port (y/N)?`).
+
+image::images/config/config-09.png["config-09",align="center"]
+
+El nuevo bonding creado aparece ahora en el listado anterior. También, se indica que para que los cambios surtan efecto se debe aplicar la configuración. Esto se hará al final del proceso de configuración de red.
+
+image::images/config/config-10.png["config-10",align="center"]
+
+==== Configuración de DNS y dominio
+
+El siguiente paso será configurar el DNS y el dominio. Para ello, será necesario volver al menú anterior con la opción `q` y seleccionar la opción `2 (DNS and domain settings)`.
+
+image::images/config/config-11.png["config-11",align="center"]
+
+Por último, es necesario aplicar los cambios de red. Para ello, desde el menú de configuración de red introduzca la opción a para aplicar los cambios.
+
+image::images/config/config-12.png["config-12",align="center"]
+
+El asistente comenzará a aplicar los cambios realizados y mostrará el resultado de los mismos.
+
+image::images/config/config-13.png["config-13",align="center"]
+
+Una vez finalizado el proceso de aplicación de cambios, el asistente vuelve a la pantalla principal del menú de configuración de red. Seleccione la opción q para volver al menú de configuración principal.
+
+image::images/config/config-14.png["config-14",align="center"]
+
+Y de nuevo la opción q para salir del menú de configuración de redborder.
+
+image::images/config/config-15.png["config-15",align="center"]
+
+El proceso de configuración de redborder Community Manager ha terminado, por lo que ya puede hacer logout.
+
+image::images/config/config-16.png["config-16",align="center"]
+
+
+
+
+
+

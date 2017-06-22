@@ -1,0 +1,15 @@
+== Capítulo 4: Acceso a la web
+
+A partir de aquí, ya puede acceder a la interfaz web de redborder Community Manager introduciendo la dirección `https://IP-de-gestion` en su navegador.
+Una vez dentro, la interfaz web solicitará las credenciales del usuario administrador, que por defecto son:
+
+* Username: admin
+* Password: redborder
+
+image::images/web/web-01.png["web-01",align="center"]
+
+Por último, podrá navegar por la consola web de redborder Community Manager.
+
+image::images/web/web-02.png["web-02",align="center"]
+
+
