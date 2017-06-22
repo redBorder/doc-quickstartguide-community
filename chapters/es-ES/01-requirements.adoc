@@ -27,7 +27,7 @@ Para entornos de cierta criticidad, por favor, póngase en contacto con el equip
 
 redborder Community Manager únicamente necesita poder comunicarse con sus sensores y con los administradores que deban acceder a él. Por tanto, la conectividad necesaria es:
 
-image::images/requirements/requirements-01.png["requirements-01",align="center"]
+image::images/requirements/requirements-01.png["requirements-01",align="center",title="Requisitos de conectividad"]
 
 
 

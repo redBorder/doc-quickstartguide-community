@@ -6,10 +6,10 @@ Una vez dentro, la interfaz web solicitará las credenciales del usuario adminis
 * Username: admin
 * Password: redborder
 
-image::images/web/web-01.png["web-01",align="center"]
+image::images/web/web-01.png["web-01",align="center",title="Interfaz web: login"]
 
 Por último, podrá navegar por la consola web de redborder Community Manager.
 
-image::images/web/web-02.png["web-02",align="center"]
+image::images/web/web-02.png["web-02",align="center",title="Interfaz web de redborder Community Manager"]
 
 

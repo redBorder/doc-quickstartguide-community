@@ -574,7 +574,7 @@ td.hdlist1 { font-weight: bold; padding-bottom: 1.25em; }
 
 .imageblock.left, .imageblock[style*="float: left"] { margin: 0.25em 0.625em 1.25em 0; }
 .imageblock.right, .imageblock[style*="float: right"] { margin: 0.25em 0 1.25em 0.625em; }
-.imageblock > .title { margin-bottom: 0; }
+.imageblock > .title { margin-bottom: 0; text-align: center; }
 .imageblock.thumb, .imageblock.th { border-width: 6px; }
 .imageblock.thumb > .title, .imageblock.th > .title { padding: 0 0.125em; }
 
@@ -798,6 +798,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/requirements/requirements-01.png" alt="requirements-01">
 </div>
+<div class="title">Figure 1. Requisitos de conectividad</div>
 </div>
 </div>
 </div>
@@ -822,6 +823,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-01.png" alt="install-01">
 </div>
+<div class="title">Figure 2. Pantalla principal del asistente de instalación de redborder Community Manager</div>
 </div>
 <div class="paragraph">
 <p>Seleccione Install Community Manager para comenzar el proceso de instalación de redborder Community Manager.</p>
@@ -830,6 +832,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-02.png" alt="install-02">
 </div>
+<div class="title">Figure 3. Asistente de instalación: Install Community Manager</div>
 </div>
 <div class="paragraph">
 <p>Complete los siguientes ajustes básicos antes de continuar:</p>
@@ -845,6 +848,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-03.png" alt="install-03">
 </div>
+<div class="title">Figure 4. Ajustes básicos: selección de disco</div>
 </div>
 <div class="ulist">
 <ul>
@@ -860,6 +864,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-04.png" alt="install-04">
 </div>
+<div class="title">Figure 5. Ajustes básicos: selección de contraseña</div>
 </div>
 <div class="paragraph">
 <p>Una vez finalizados los ajustes básicos, se inicia automáticamente la instalación de redborder Community Manager.</p>
@@ -868,6 +873,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-05.png" alt="install-05">
 </div>
+<div class="title">Figure 6. Instalación de los paquetes del sistema</div>
 </div>
 <div class="paragraph">
 <p>Tras completar la instalación, el sistema se reiniciará automáticamente.</p>
@@ -876,6 +882,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/install/install-06.png" alt="install-06">
 </div>
+<div class="title">Figure 7. Reinicio del sistema tras la instalación de los paquetes del sistema</div>
 </div>
 </div>
 </div>
@@ -889,6 +896,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/config/config-01.png" alt="config-01">
 </div>
+<div class="title">Figure 8. Configuración automática de redborder Community Manager</div>
 </div>
 <div class="paragraph">
 <p>Tras finalizar la configuración automática, aparece la ventana de login, donde se podrán introducir las credenciales del sistema:</p>
@@ -907,6 +915,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/config/config-02.png" alt="config-02">
 </div>
+<div class="title">Figure 9. Solicitud de credenciales para acceder al sistema</div>
 </div>
 <div class="paragraph">
 <p>A través del comando rb_sysconf es posible acceder al menú de configuración de redborder.</p>
@@ -915,6 +924,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/config/config-03.png" alt="config-03">
 </div>
+<div class="title">Figure 10. Ejecución del comando rb_sysconf</div>
 </div>
 <div class="sect2">
 <h3 id="_configuración_de_red">Configuración de red</h3>
@@ -925,6 +935,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/config/config-04.png" alt="config-04">
 </div>
+<div class="title">Figure 11. Menú de configuración de redborder: selección de Network configuration</div>
 </div>
 <div class="paragraph">
 <p>Desde el menú de configuración de red es posible establecer la interfaz de gestión, el DNS y el dominio.</p>
@@ -933,6 +944,7 @@ b.conum * { color: inherit !important; }
 <div class="content">
 <img src="images/config/config-05.png" alt="config-05">
 </div>
+<div class="title">Figure 12. Menú de configuración de red de redborder</div>
 </div>
 <div class="sect3">
 <h4 id="_configuración_de_la_interfaz_de_gestión">Configuración de la interfaz de gestión</h4>
@@ -946,6 +958,7 @@ Introduzca el comando ‘ip a’ desde la CLI del sistema para conocer la direcc
 <div class="content">
 <img src="images/config/config-06.png" alt="config-06">
 </div>
+<div class="title">Figure 13. Salida del comando ip a: dirección IP de la interfaz de gestión bond0</div>
 </div>
 <div class="sect5">
 <h6 id="_sin_dhcp">Sin DHCP</h6>
@@ -956,6 +969,7 @@ Introduzca el comando ‘ip a’ desde la CLI del sistema para conocer la direcc
 <div class="content">
 <img src="images/config/config-07.png" alt="config-07">
 </div>
+<div class="title">Figure 14. Menú de configuración de red de redborder: selección de Management Network configuration</div>
 </div>
 <div class="paragraph">
 <p>En este menú aparece un listado de los bondings existentes, por lo que tras la instalación y configuración automática deberá estar vacío, como se muestra en la imagen de abajo.</p>
@@ -964,6 +978,7 @@ Introduzca el comando ‘ip a’ desde la CLI del sistema para conocer la direcc
 <div class="content">
 <img src="images/config/config-08.png" alt="config-08">
 </div>
+<div class="title">Figure 15. Menú de configuración de red de gestión</div>
 </div>
 <div class="paragraph">
 <p>Para aportar redundancia, cabe la posibilidad de formar bondings con 2 interfaces de gestión cada uno. Si no se desea redundancia, igualmente se deberá formar un bonding, aunque sea empleando una única interfaz de gestión.
@@ -973,6 +988,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-09.png" alt="config-09">
 </div>
+<div class="title">Figure 16. Menú de configuración de red de gestión: Bonding 0 created successfully</div>
 </div>
 <div class="paragraph">
 <p>El nuevo bonding creado aparece ahora en el listado anterior. También, se indica que para que los cambios surtan efecto se debe aplicar la configuración. Esto se hará al final del proceso de configuración de red.</p>
@@ -981,6 +997,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-10.png" alt="config-10">
 </div>
+<div class="title">Figure 17. Nuevo bonding creado</div>
 </div>
 </div>
 </div>
@@ -994,6 +1011,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-11.png" alt="config-11">
 </div>
+<div class="title">Figure 18. Menú de configuración de red: DNS and domain settings</div>
 </div>
 <div class="paragraph">
 <p>Por último, es necesario aplicar los cambios de red. Para ello, desde el menú de configuración de red introduzca la opción a para aplicar los cambios.</p>
@@ -1002,6 +1020,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-12.png" alt="config-12">
 </div>
+<div class="title">Figure 19. Menú de configuración de red: apply</div>
 </div>
 <div class="paragraph">
 <p>El asistente comenzará a aplicar los cambios realizados y mostrará el resultado de los mismos.</p>
@@ -1010,6 +1029,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-13.png" alt="config-13">
 </div>
+<div class="title">Figure 20. Menú de configuración de red: aplicando cambios</div>
 </div>
 <div class="paragraph">
 <p>Una vez finalizado el proceso de aplicación de cambios, el asistente vuelve a la pantalla principal del menú de configuración de red. Seleccione la opción q para volver al menú de configuración principal.</p>
@@ -1018,6 +1038,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-14.png" alt="config-14">
 </div>
+<div class="title">Figure 21. Menú de configuración de red: quit</div>
 </div>
 <div class="paragraph">
 <p>Y de nuevo la opción q para salir del menú de configuración de redborder.</p>
@@ -1026,6 +1047,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-15.png" alt="config-15">
 </div>
+<div class="title">Figure 22. Menú de configuración de redborder: quit</div>
 </div>
 <div class="paragraph">
 <p>El proceso de configuración de redborder Community Manager ha terminado, por lo que ya puede hacer logout.</p>
@@ -1034,6 +1056,7 @@ Seleccione la opción n para añadir un nuevo bonding e introduzca los parámetr
 <div class="content">
 <img src="images/config/config-16.png" alt="config-16">
 </div>
+<div class="title">Figure 23. CLI del sistema: exit</div>
 </div>
 </div>
 </div>
@@ -1060,6 +1083,7 @@ Una vez dentro, la interfaz web solicitará las credenciales del usuario adminis
 <div class="content">
 <img src="images/web/web-01.png" alt="web-01">
 </div>
+<div class="title">Figure 24. Interfaz web: login</div>
 </div>
 <div class="paragraph">
 <p>Por último, podrá navegar por la consola web de redborder Community Manager.</p>
@@ -1068,6 +1092,7 @@ Una vez dentro, la interfaz web solicitará las credenciales del usuario adminis
 <div class="content">
 <img src="images/web/web-02.png" alt="web-02">
 </div>
+<div class="title">Figure 25. Interfaz web de redborder Community Manager</div>
 </div>
 </div>
 </div>
