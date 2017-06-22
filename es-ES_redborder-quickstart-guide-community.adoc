@@ -15,7 +15,7 @@
 :table-caption: Tabla
 :stem: latexmath
 
-= redborder install guide
+= Guía de instalación rápida de redborder community
 
 include::chapters/es-ES/01-requirements.adoc[]
 include::chapters/es-ES/02-install.adoc[]
